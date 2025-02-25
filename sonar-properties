@@ -1,0 +1,9 @@
+sonar.verbose=true
+sonar.organization=new-organ
+sonar.projectKey=new-organ
+sonar.projectName=new-organ_trend
+sonar.language=java
+sonar.sourceEncoding=UTF-8
+sonar.sources=.
+sonar.java.binaries=target/classes
+sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
