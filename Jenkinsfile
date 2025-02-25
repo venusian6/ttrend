@@ -3,10 +3,10 @@ pipeline {
         node{
             label 'maven-slave'
         }
-        environemnt{
+    }
+       environemnt{
              PATH = "/opt/apache-maven-3.9.9/bin:$PATH"
         }
-    }
 
     stages {
         stage('Build') {
